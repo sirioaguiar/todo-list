@@ -1,0 +1,24 @@
+.list {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.list header{
+
+    width: 50rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.azul {
+    color: var(--blue);
+}
+
+.roxo {
+    color: var(--purple);
+}

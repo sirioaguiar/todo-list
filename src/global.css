@@ -26,7 +26,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 0
+    border: 0;
+    background: transparent;
+
 }
 
 body {
@@ -37,4 +39,5 @@ body {
 
 body, input, textarea, button {
     font-family: 'Inter', sans-serif;
+    font-size: 1rem;
 }
