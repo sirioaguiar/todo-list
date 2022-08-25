@@ -19,12 +19,14 @@
 :focus{
     outline: transparent;
     box-shadow: 0 0 0 2px var(--purple-dark);
+    color: var(--gray-100);
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 0
 }
 
 body {
@@ -35,5 +37,4 @@ body {
 
 body, input, textarea, button {
     font-family: 'Inter', sans-serif;
-
 }

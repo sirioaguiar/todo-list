@@ -1,0 +1,45 @@
+.taskForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    width: 100%;
+}
+
+.taskForm textarea{
+    width: 39.875rem;
+    justify-content: center;
+    background: var(--gray-500);
+    align-items: center;
+    border:0;
+    height: 3.375rem;
+    resize: none;
+    border-radius: 0.5rem;
+    color: var(--gray-300);
+    padding: 1rem;
+    line-height: 1.4;
+    margin-top: 1rem;
+}
+
+.taskForm button[type=submit]{
+    padding: 1rem 1rem;
+    margin: 0.75rem 0 0 0.5rem;
+    border-radius: 0.5rem;
+    height: 3.375rem;
+    background: var(--blue-dark);
+    color: var(--white);
+    font-size: 0.875rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.1s;  
+    display: flex;
+}
+
+
+.taskForm button svg {
+    padding: 0.1rem 0 0 0.25rem;
+}
+
+.taskForm button:hover {
+    background: var(--blue);
+}
